@@ -3,7 +3,10 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>MDSI Operations SRL</title>
+
+<meta name="description" content="Operational Management, Transport Operations and Logistics Consulting across Europe.">
 
 <style>
 
@@ -28,11 +31,28 @@ padding:100px 20px;
 }
 
 .logo{
-font-size:42px;
-letter-spacing:10px;
-color:#60a5fa;
-font-weight:bold;
-margin-bottom:15px;
+display:flex;
+justify-content:center;
+gap:8px;
+margin-bottom:20px;
+}
+
+.logo-bar{
+width:18px;
+height:60px;
+border-radius:4px;
+}
+
+.blue{
+background:#0033A0;
+}
+
+.yellow{
+background:#FFD100;
+}
+
+.red{
+background:#CE1126;
 }
 
 .company{
@@ -100,6 +120,15 @@ font-weight:bold;
 margin:20px 0;
 }
 
+.email a{
+text-decoration:none;
+color:#0f172a;
+}
+
+.email a:hover{
+text-decoration:underline;
+}
+
 footer{
 text-align:center;
 padding:40px;
@@ -107,14 +136,17 @@ color:#6b7280;
 }
 
 </style>
-
 </head>
 
 <body>
 
 <header>
 
-<div class="logo">▌▌▌</div>
+<div class="logo">
+<div class="logo-bar blue"></div>
+<div class="logo-bar yellow"></div>
+<div class="logo-bar red"></div>
+</div>
 
 <div class="company">MDSI</div>
 
@@ -172,7 +204,7 @@ Strategic operational support, transition management and organizational developm
 <h2>Contact</h2>
 
 <div class="email">
-miosif@mdsi.ro
+<a href="mailto:miosif@mdsi.ro">miosif@mdsi.ro</a>
 </div>
 
 <p>MDSI Operations SRL</p>
