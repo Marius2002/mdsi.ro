@@ -3,68 +3,102 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title><h1>MDSI</h1></title>
+<title>MDSI Operations SRL</title>
 
 <style>
-body{
+*{
     margin:0;
-    font-family:Arial,Helvetica,sans-serif;
-    color:#222;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
     background:#f8f9fb;
+    color:#222;
+    line-height:1.6;
 }
 
 header{
     background:#0f172a;
     color:white;
-    padding:80px 20px;
     text-align:center;
+    padding:90px 20px;
+}
+
+.logo{
+    font-size:42px;
+    letter-spacing:8px;
+    margin-bottom:15px;
+    color:#60a5fa;
+    font-weight:bold;
 }
 
 header h1{
-    font-size:52px;
-    margin:0;
+    font-size:54px;
+    margin-bottom:15px;
 }
 
 header p{
     font-size:22px;
-    margin-top:15px;
     color:#cbd5e1;
 }
 
-section{
+.container{
     max-width:1100px;
     margin:auto;
     padding:60px 20px;
 }
 
-h2{
+.section-title{
+    text-align:center;
+    margin-bottom:30px;
     color:#0f172a;
+}
+
+.about{
+    text-align:center;
+    font-size:18px;
+    max-width:900px;
+    margin:auto;
 }
 
 .services{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
-    gap:20px;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    margin-top:40px;
 }
 
 .card{
     background:white;
-    padding:25px;
-    border-radius:10px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    border-radius:12px;
+    padding:30px;
+    box-shadow:0 3px 12px rgba(0,0,0,0.08);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:#0f172a;
 }
 
 .contact{
-    text-align:center;
     background:white;
+    border-radius:12px;
     padding:40px;
-    border-radius:10px;
-    box-shadow:0 2px 10px rgba(0,0,0,0.08);
+    text-align:center;
+    box-shadow:0 3px 12px rgba(0,0,0,0.08);
+}
+
+.email{
+    font-size:22px;
+    font-weight:bold;
+    margin:15px 0;
 }
 
 footer{
     text-align:center;
-    padding:30px;
+    padding:40px;
     color:#666;
 }
 </style>
@@ -73,73 +107,86 @@ footer{
 <body>
 
 <header>
-    <h1>MDSI</h1>
-    <p>Operational Management • Transport Operations • Consulting</p>
+
+<div class="logo">▌▌▌</div>
+
+<h1>MDSI</h1>
+
+<p>
+Operational Management • Transport Operations • Consulting
+</p>
+
 </header>
 
-<section>
-    <h2>About Us</h2>
+<div class="container">
 
-    <p>
-       MDSI Operations SRL provides operational management, transport coordination and logistics consulting services. With extensive experience in international transport operations, we support companies in optimizing processes, improving operational efficiency, managing transitions and strengthening compliance across Europe. 
-    </p>
-</section>
+<h2 class="section-title">About Us</h2>
 
-<section>
-    <h2>Services</h2>
+<p class="about">
+MDSI Operations SRL provides operational management,
+transport coordination and logistics consulting services.
+With extensive experience in international transport operations,
+we support companies in optimizing processes, improving operational
+efficiency, managing transitions and strengthening compliance
+across Europe.
+</p>
 
-    <div class="services">
+</div>
 
-        <div class="card">
-            <h3>Operational Management</h3>
-            <p>
-                Process optimization, performance monitoring,
-                operational structure and workflow improvement.
-            </p>
-        </div>
+<div class="container">
 
-        <div class="card">
-            <h3>Transport Operations</h3>
-            <p>
-                Fleet coordination, driver management,
-                transport planning and operational support.
-            </p>
-        </div>
+<h2 class="section-title">Services</h2>
 
-        <div class="card">
-            <h3>Operational Consulting</h3>
-            <p>
-                Strategic operational support,
-                transition management and organizational development.
-            </p>
-        </div>
+<div class="services">
 
-    </div>
-</section>
+<div class="card">
+<h3>Operational Management</h3>
+<p>
+Process optimization, performance monitoring,
+operational structure and workflow improvement.
+</p>
+</div>
 
-<section>
-    <div class="contact">
+<div class="card">
+<h3>Transport Operations</h3>
+<p>
+Fleet coordination, driver management,
+transport planning and operational support.
+</p>
+</div>
 
-        <h2>Contact</h2>
+<div class="card">
+<h3>Operational Consulting</h3>
+<p>
+Strategic operational support,
+transition management and organizational development.
+</p>
+</div>
 
-        <p>
-            Email:
-            <strong>miosif@mdsi.ro</strong>
-        </p>
+</div>
 
-        <p>
-            MDSI Operations SRL
-        </p>
+</div>
 
-        <p>
-            Romania • Operating across Europe
-        </p>
+<div class="container">
 
-    </div>
-</section>
+<div class="contact">
+
+<h2>Contact</h2>
+
+<div class="email">
+miosif@mdsi.ro
+</div>
+
+<p>MDSI Operations SRL</p>
+
+<p>Romania • Operating across Europe</p>
+
+</div>
+
+</div>
 
 <footer>
-    © 2026 MDSI Operations SRL
+© 2026 MDSI Operations SRL
 </footer>
 
 </body>
