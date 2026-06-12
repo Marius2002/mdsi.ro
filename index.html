@@ -28,12 +28,28 @@ header{
 background:#0f172a;
 color:white;
 text-align:center;
-padding:60px 20px;
+padding:25px 20px 35px;
+}
+
+.language-switcher{
+margin-bottom:20px;
+font-size:15px;
+font-weight:bold;
+}
+
+.language-switcher a{
+color:white;
+text-decoration:none;
+padding:0 8px;
+}
+
+.language-switcher a:hover{
+text-decoration:underline;
 }
 
 .main-logo{
 width:100%;
-max-width:600px;
+max-width:900px;
 height:auto;
 display:block;
 margin:0 auto;
@@ -113,6 +129,12 @@ color:#6b7280;
 <body>
 
 <header>
+
+<div class="language-switcher">
+<a href="/">EN</a> |
+<a href="/ro.html">RO</a> |
+<a href="/fr.html">FR</a>
+</div>
 
 <img src="/logo.svg" alt="MDSI Operations SRL" class="main-logo">
 
