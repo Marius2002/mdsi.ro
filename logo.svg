@@ -3,12 +3,12 @@
   <rect width="500" height="140" rx="14" fill="#0f172a"/>
 
   <!-- Tricolor -->
-  <rect x="105" y="35" width="12" height="50" fill="#0057B8"/>
-  <rect x="123" y="35" width="12" height="50" fill="#FCD116"/>
-  <rect x="141" y="35" width="12" height="50" fill="#CE1126"/>
+  <rect x="140" y="42" width="14" height="42" fill="#0057B8"/>
+<rect x="162" y="42" width="14" height="42" fill="#FCD116"/>
+<rect x="184" y="42" width="14" height="42" fill="#CE1126"/>
 
   <!-- MDSI -->
-  <text x="270" y="78"
+  <text x="295" y="83"
         text-anchor="middle"
         font-family="Arial, Helvetica, sans-serif"
         font-size="48"
