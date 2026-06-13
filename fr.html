@@ -8,6 +8,43 @@
 
 <meta name="description" content="Conseil en opérations transport et logistique à travers l'Europe. Management opérationnel, opérations transport, continuité d'activité et gestion des transitions.">
 
+<link rel="canonical" href="https://www.mdsi.ro/fr.html">
+<link rel="alternate" hreflang="en" href="https://www.mdsi.ro/">
+<link rel="alternate" hreflang="ro" href="https://www.mdsi.ro/ro.html">
+<link rel="alternate" hreflang="fr" href="https://www.mdsi.ro/fr.html">
+<link rel="alternate" hreflang="x-default" href="https://www.mdsi.ro/">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="MDSI Operations SRL">
+<meta property="og:title" content="MDSI Operations SRL | Conseil en opérations transport et logistique Europe">
+<meta property="og:description" content="Conseil en opérations transport et logistique à travers l'Europe. Management opérationnel, opérations transport, continuité d'activité et gestion des transitions.">
+<meta property="og:url" content="https://www.mdsi.ro/fr.html">
+<meta property="og:locale" content="fr_FR">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:locale:alternate" content="ro_RO">
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="MDSI Operations SRL | Conseil en opérations transport et logistique Europe">
+<meta name="twitter:description" content="Conseil en opérations transport et logistique à travers l'Europe. Management opérationnel, opérations transport, continuité d'activité et gestion des transitions.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "MDSI Operations SRL",
+  "url": "https://www.mdsi.ro/",
+  "email": "miosif@mdsi.ro",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "RO"
+  },
+  "areaServed": {
+    "@type": "Place",
+    "name": "Europe"
+  }
+}
+</script>
+
 <link rel="icon" type="image/svg+xml" href="/favicon.svg">
 
 <style>
@@ -48,6 +85,11 @@ padding:0 10px;
 text-decoration:underline;
 }
 
+.language-switcher a:focus-visible{
+outline:2px solid #ffd21f;
+outline-offset:4px;
+}
+
 .main-logo{
 width:100%;
 max-width:640px;
@@ -82,6 +124,12 @@ text-align:center;
 font-size:34px;
 margin-bottom:22px;
 color:#0f172a;
+}
+
+.hero h1,
+.section-title,
+.email{
+overflow-wrap:anywhere;
 }
 
 .about{
@@ -185,6 +233,20 @@ color:#6b7280;
 font-size:14px;
 }
 
+@media (max-width:600px){
+.hero h1{
+font-size:28px;
+}
+
+.section-title{
+font-size:28px;
+}
+
+.email{
+font-size:24px;
+}
+}
+
 </style>
 </head>
 
@@ -192,10 +254,10 @@ font-size:14px;
 
 <header>
 
-<div class="language-switcher">
-<a href="/">EN</a> |
-<a href="/ro.html">RO</a> |
-<a href="/fr.html">FR</a>
+<div class="language-switcher" aria-label="Language selection">
+<a href="/" hreflang="en" lang="en">EN</a> |
+<a href="/ro.html" hreflang="ro" lang="ro">RO</a> |
+<a href="/fr.html" hreflang="fr" lang="fr" aria-current="page">FR</a>
 </div>
 
 <img src="/logo.svg" alt="MDSI Operations SRL" class="main-logo">
