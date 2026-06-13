@@ -1,5 +1,44 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="600" height="220" viewBox="0 0 600 220">
 
+  <style>
+    .logo-letter{
+      opacity:0;
+      animation:letterReveal 520ms ease-out forwards;
+    }
+
+    .logo-letter-d{
+      animation-delay:200ms;
+    }
+
+    .logo-letter-s{
+      animation-delay:400ms;
+    }
+
+    .logo-letter-i{
+      animation-delay:600ms;
+    }
+
+    @keyframes letterReveal{
+      from{
+        opacity:0;
+        transform:translateY(-8px);
+      }
+
+      to{
+        opacity:1;
+        transform:translateY(0);
+      }
+    }
+
+    @media (prefers-reduced-motion:reduce){
+      .logo-letter{
+        opacity:1;
+        animation:none;
+        transform:none;
+      }
+    }
+  </style>
+
   <rect width="600" height="220" rx="16" fill="#0f172a"/>
 
   <!-- Tricolor -->
@@ -9,12 +48,29 @@
 
   <!-- MDSI -->
   <text x="230" y="136"
+        class="logo-letter logo-letter-m"
         font-family="Arial, Helvetica, sans-serif"
         font-size="92"
         font-weight="700"
-        fill="#ffffff">
-    MDSI
-  </text>
+        fill="#ffffff">M</text>
+  <text x="308" y="136"
+        class="logo-letter logo-letter-d"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="92"
+        font-weight="700"
+        fill="#ffffff">D</text>
+  <text x="374" y="136"
+        class="logo-letter logo-letter-s"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="92"
+        font-weight="700"
+        fill="#ffffff">S</text>
+  <text x="432" y="136"
+        class="logo-letter logo-letter-i"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="92"
+        font-weight="700"
+        fill="#ffffff">I</text>
 
   <!-- Linie -->
   <line x1="80" y1="165" x2="520" y2="165"
