@@ -45,7 +45,7 @@
 }
 </script>
 
-<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 
 <style>
 
@@ -260,7 +260,7 @@ font-size:24px;
 <a href="/fr.html" hreflang="fr" lang="fr">FR</a>
 </div>
 
-<img src="/logo.svg" alt="MDSI Operations SRL" class="main-logo">
+<img src="logo.svg" alt="MDSI Operations SRL" class="main-logo">
 
 <div class="hero">
 <h1>Transport & Logistics Operations Consulting</h1>
@@ -339,6 +339,15 @@ Interim operational support, transition management, operational stabilisation an
 <footer>
 © 2026 MDSI Operations SRL
 </footer>
+
+<script>
+(function(){
+var logo=document.querySelector(".main-logo");
+if(!logo){return;}
+var source=logo.getAttribute("src").split("?")[0];
+logo.setAttribute("src",source+"?animation="+Date.now());
+})();
+</script>
 
 </body>
 </html>
