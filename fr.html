@@ -340,5 +340,14 @@ Support opérationnel intérimaire, gestion des transitions, stabilisation des o
 © 2026 MDSI Operations SRL
 </footer>
 
+<script>
+(function(){
+var logo=document.querySelector(".main-logo");
+if(!logo){return;}
+var source=logo.getAttribute("src").split("?")[0];
+logo.setAttribute("src",source+"?animation="+Date.now());
+})();
+</script>
+
 </body>
 </html>
