@@ -90,6 +90,32 @@ outline:2px solid #ffd21f;
 outline-offset:4px;
 }
 
+.site-nav{
+margin-bottom:16px;
+font-size:15px;
+font-weight:600;
+}
+
+.site-nav a{
+color:#cbd5e1;
+text-decoration:none;
+padding:0 10px;
+}
+
+.site-nav a:hover{
+color:white;
+text-decoration:underline;
+}
+
+.site-nav a:focus-visible{
+outline:2px solid #ffd21f;
+outline-offset:4px;
+}
+
+.site-nav a[aria-current="page"]{
+color:white;
+}
+
 .main-logo{
 width:100%;
 max-width:640px;
@@ -245,6 +271,10 @@ font-size:28px;
 .email{
 font-size:24px;
 }
+
+.site-nav{
+line-height:2;
+}
 }
 
 </style>
@@ -259,6 +289,12 @@ font-size:24px;
 <a href="/ro.html" hreflang="ro" lang="ro">RO</a> |
 <a href="/fr.html" hreflang="fr" lang="fr" aria-current="page">FR</a>
 </div>
+
+<nav class="site-nav" aria-label="Navigation principale">
+<a href="/fr.html" aria-current="page">Accueil</a>
+<a href="fr-services.html">Services</a>
+<a href="fr-about.html">À propos</a>
+</nav>
 
 <img src="logo.svg" alt="MDSI Operations SRL" class="main-logo">
 
