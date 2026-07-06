@@ -4,44 +4,40 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>MDSI Operations SRL | Support opérationnel et services transport Europe</title>
+<title>Informations Société | MDSI Operations SRL</title>
 
-<meta name="description" content="Support opérationnel et services pour les opérations transport à travers l'Europe. Opérations transport, support logistique, continuité d'activité et gestion des transitions.">
+<meta name="description" content="Informations légales sur MDSI Operations SRL, société enregistrée en Roumanie fournissant un support opérationnel et des services transport en Europe.">
 
-<link rel="canonical" href="https://www.mdsi.ro/fr.html">
-<link rel="alternate" hreflang="en" href="https://www.mdsi.ro/">
-<link rel="alternate" hreflang="ro" href="https://www.mdsi.ro/ro.html">
-<link rel="alternate" hreflang="fr" href="https://www.mdsi.ro/fr.html">
-<link rel="alternate" hreflang="x-default" href="https://www.mdsi.ro/">
+<link rel="canonical" href="https://www.mdsi.ro/fr-company.html">
+<link rel="alternate" hreflang="en" href="https://www.mdsi.ro/company.html">
+<link rel="alternate" hreflang="ro" href="https://www.mdsi.ro/ro-company.html">
+<link rel="alternate" hreflang="fr" href="https://www.mdsi.ro/fr-company.html">
+<link rel="alternate" hreflang="x-default" href="https://www.mdsi.ro/company.html">
 
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="MDSI Operations SRL">
-<meta property="og:title" content="MDSI Operations SRL | Support opérationnel et services transport Europe">
-<meta property="og:description" content="Support opérationnel et services pour les opérations transport à travers l'Europe. Opérations transport, support logistique, continuité d'activité et gestion des transitions.">
-<meta property="og:url" content="https://www.mdsi.ro/fr.html">
+<meta property="og:title" content="Informations Société | MDSI Operations SRL">
+<meta property="og:description" content="Informations légales sur MDSI Operations SRL, société enregistrée en Roumanie fournissant un support opérationnel et des services transport en Europe.">
+<meta property="og:url" content="https://www.mdsi.ro/fr-company.html">
 <meta property="og:locale" content="fr_FR">
-<meta property="og:locale:alternate" content="en_US">
-<meta property="og:locale:alternate" content="ro_RO">
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="MDSI Operations SRL | Support opérationnel et services transport Europe">
-<meta name="twitter:description" content="Support opérationnel et services pour les opérations transport à travers l'Europe. Opérations transport, support logistique, continuité d'activité et gestion des transitions.">
+<meta name="twitter:title" content="Informations Société | MDSI Operations SRL">
+<meta name="twitter:description" content="Informations légales sur MDSI Operations SRL, société enregistrée en Roumanie fournissant un support opérationnel et des services transport en Europe.">
 
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Organization",
   "name": "MDSI Operations SRL",
+  "legalName": "MDSI Operations SRL",
   "url": "https://www.mdsi.ro/",
   "email": "miosif@mdsi.ro",
-  "address": {
-    "@type": "PostalAddress",
-    "addressCountry": "RO"
-  },
-  "areaServed": {
-    "@type": "Place",
-    "name": "Europe"
-  }
+  "taxID": "55042763",
+  "identifier": ["CUI 55042763", "ONRC J2026041909007", "EUID ROONRC.J2026041909007"],
+  "sameAs": "https://www.linkedin.com/company/mdsi-operations/",
+  "address": {"@type": "PostalAddress", "addressCountry": "RO"},
+  "areaServed": {"@type": "Place", "name": "Europe"}
 }
 </script>
 
@@ -75,17 +71,20 @@ font-size:16px;
 font-weight:600;
 }
 
-.language-switcher a{
+.language-switcher a,
+.site-nav a{
 color:white;
 text-decoration:none;
 padding:0 10px;
 }
 
-.language-switcher a:hover{
+.language-switcher a:hover,
+.site-nav a:hover{
 text-decoration:underline;
 }
 
-.language-switcher a:focus-visible{
+.language-switcher a:focus-visible,
+.site-nav a:focus-visible{
 outline:2px solid #ffd21f;
 outline-offset:4px;
 }
@@ -98,20 +97,9 @@ font-weight:600;
 
 .site-nav a{
 color:#cbd5e1;
-text-decoration:none;
-padding:0 10px;
 }
 
-.site-nav a:hover{
-color:white;
-text-decoration:underline;
-}
-
-.site-nav a:focus-visible{
-outline:2px solid #ffd21f;
-outline-offset:4px;
-}
-
+.site-nav a:hover,
 .site-nav a[aria-current="page"]{
 color:white;
 }
@@ -158,64 +146,49 @@ color:#0f172a;
 overflow-wrap:anywhere;
 }
 
-.about{
+.intro{
 max-width:850px;
 margin:auto;
 text-align:center;
 font-size:18px;
 }
 
-.about p{
-margin-bottom:18px;
-}
-
-.services{
+.service-list{
 display:grid;
-grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
 gap:30px;
 margin-top:40px;
 }
 
-.card{
-padding:35px;
+.service-card{
+background:white;
+padding:32px;
 border-radius:12px;
 box-shadow:0 4px 14px rgba(0,0,0,0.12);
+border-top:7px solid #003b7a;
 }
 
-.card h3{
-margin-bottom:15px;
+.service-card:nth-child(3n+2){
+border-top-color:#ffd21f;
+}
+
+.service-card:nth-child(3n){
+border-top-color:#c91f2c;
+}
+
+.service-card h3{
 font-size:22px;
+margin-bottom:12px;
+color:#0f172a;
 }
 
-.card p{
+.service-card p{
 font-size:16px;
+margin-bottom:14px;
 }
 
-.card-blue{
-background:#003b7a;
-color:white;
-}
-
-.card-blue h3{
-color:white;
-}
-
-.card-yellow{
-background:#ffd21f;
+.service-card strong{
 color:#0f172a;
-}
-
-.card-yellow h3{
-color:#0f172a;
-}
-
-.card-red{
-background:#c91f2c;
-color:white;
-}
-
-.card-red h3{
-color:white;
 }
 
 .contact{
@@ -374,103 +347,39 @@ line-height:2;
 }
 }
 
+
+
+
 </style>
 </head>
-
 <body>
-
 <header>
-
-<div class="language-switcher" aria-label="Language selection">
-<a href="/" hreflang="en" lang="en">EN</a> |
-<a href="/ro.html" hreflang="ro" lang="ro">RO</a> |
-<a href="/fr.html" hreflang="fr" lang="fr" aria-current="page">FR</a>
+<div class="language-switcher" aria-label="Sélection de la langue">
+<a href="company.html" hreflang="en" lang="en">EN</a> |
+<a href="ro-company.html" hreflang="ro" lang="ro">RO</a> |
+<a href="fr-company.html" hreflang="fr" lang="fr" aria-current="page">FR</a>
 </div>
-
 <nav class="site-nav" aria-label="Navigation principale">
-<a href="/fr.html" aria-current="page">Accueil</a>
+<a href="fr.html">Accueil</a>
 <a href="fr-services.html">Services</a>
 <a href="fr-about.html">À propos</a>
 </nav>
-
 <img src="logo.svg" alt="MDSI Operations SRL" class="main-logo">
-
 <div class="hero">
-<h1>Support opérationnel et services transport</h1>
-<p>Opérations Transport | Support Logistique | Continuité d’Activité</p>
+<h1>Informations Société</h1>
+<p>Identité légale et informations de vérification fournisseur</p>
 </div>
-
 </header>
-
+<section class="container"><h2 class="section-title">Informations Société</h2><div class="legal-info"><p>MDSI Operations SRL est une société enregistrée en Roumanie qui fournit un support opérationnel et des services pour les opérations transport aux entreprises de transport et de logistique actives en Europe.</p><div class="info-grid"><div class="info-item"><h3>Dénomination légale</h3><p>MDSI Operations SRL</p></div><div class="info-item"><h3>Enregistrement</h3><p>Société enregistrée en Roumanie</p></div><div class="info-item"><h3>Identifiants société</h3><p>CUI: 55042763<br>ONRC: J2026041909007<br>EUID: ROONRC.J2026041909007</p></div><div class="info-item"><h3>CAEN principal</h3><p>5225 - Activités de services logistiques pour les transports</p></div><div class="info-item"><h3>Base opérationnelle</h3><p>Roumanie</p></div><div class="info-item"><h3>Zone d'activité</h3><p>Activité à travers l’Europe</p></div></div><div class="legal-note"><h2>Vérification fournisseur</h2><p>Les documents officiels d’enregistrement et les coordonnées bancaires sont disponibles sur demande pour l’onboarding fournisseur, la signature d’un contrat ou des besoins de due diligence.</p><p>Les certificats officiels, extraits de société et coordonnées bancaires ne sont pas publiés sur ce site web.</p></div></div></section>
 <section class="container">
-
-<h2 class="section-title">À Propos</h2>
-
-<div class="about">
-
-<p>
-MDSI Operations SRL fournit un support opérationnel et des services pour les opérations transport à travers l'Europe. Nous accompagnons les entreprises dans l'amélioration de leurs performances opérationnelles, le renforcement de leurs processus de transport et le maintien de la continuité d'activité durant les périodes de croissance, de transition ou de pression opérationnelle.
-</p>
-
-<p>
-Avec plus de 15 années d'expérience pratique dans les opérations transport et logistique, nous aidons les organisations à atteindre stabilité opérationnelle, efficacité et continuité à l'échelle européenne.
-</p>
-
-</div>
-
-</section>
-
-<section class="container">
-
-<h2 class="section-title">Services</h2>
-
-<div class="services">
-
-<div class="card card-blue">
-<h3>Management Opérationnel</h3>
-<p>
-Coordination opérationnelle, analyse des processus, suivi des KPI, amélioration des performances et mise en œuvre des standards opérationnels.
-</p>
-</div>
-
-<div class="card card-yellow">
-<h3>Opérations Transport</h3>
-<p>
-Planification des transports, coordination de flotte, gestion des conducteurs, optimisation des itinéraires, contrôle des coûts et support à la conformité opérationnelle.
-</p>
-</div>
-
-<div class="card card-red">
-<h3>Continuité d’Activité</h3>
-<p>
-Support opérationnel intérimaire, gestion des transitions, stabilisation des opérations et continuité d'activité pendant les périodes de changement.
-</p>
-</div>
-
-</div>
-
-</section>
-
-<section class="container">
-
 <div class="contact">
-
 <h2>Contact</h2>
-
-<div class="email">
-<a href="mailto:miosif@mdsi.ro">miosif@mdsi.ro</a>
-</div>
-
+<div class="email"><a href="mailto:miosif@mdsi.ro">miosif@mdsi.ro</a></div>
 <p>MDSI Operations SRL</p>
-
 <p>Basée en Roumanie • Activité à travers l’Europe</p>
-
 <a class="linkedin-link" href="https://www.linkedin.com/company/mdsi-operations/" target="_blank" rel="noopener noreferrer" aria-label="MDSI Operations on LinkedIn">LinkedIn Company Page</a>
-
 </div>
-
 </section>
-
 <footer>
 <div class="footer-legal">MDSI Operations SRL · Société enregistrée en Roumanie · CUI 55042763 · ONRC J2026041909007</div>
 <div class="footer-links">
@@ -481,15 +390,6 @@ Support opérationnel intérimaire, gestion des transitions, stabilisation des o
 </div>
 <div>© 2026 MDSI Operations SRL</div>
 </footer>
-
-<script>
-(function(){
-var logo=document.querySelector(".main-logo");
-if(!logo){return;}
-var source=logo.getAttribute("src").split("?")[0];
-logo.setAttribute("src",source+"?animation="+Date.now());
-})();
-</script>
-
+<script>(function(){var logo=document.querySelector(".main-logo");if(!logo){return;}var source=logo.getAttribute("src").split("?")[0];logo.setAttribute("src",source+"?animation="+Date.now());})();</script>
 </body>
 </html>
